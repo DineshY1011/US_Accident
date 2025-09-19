@@ -1,156 +1,139 @@
-DV-RoadSafe Analytics 🚦
-📌 Project Statement
+# 🚦 RoadSafe Analytics: Road Accidents – Exploratory Data Analysis (EDA)
 
-The goal of this project is to analyze a large dataset of road accidents to uncover trends, patterns, and key factors contributing to accident severity. The project involves performing in-depth exploratory data analysis (EDA) using Python libraries such as Pandas, Matplotlib, and Seaborn to extract meaningful insights that can help improve road safety.
+## 📌 Project Statement
 
-🎯 Outcomes
+* Analyze a large dataset of road accidents.
+* Identify trends, patterns, and key factors contributing to accident severity.
+* Perform in-depth **Exploratory Data Analysis (EDA)** using Python libraries.
+* Extract insights to support **road safety awareness and policy-making**.
 
-Understand how to handle and preprocess real-world accident data.
+---
 
-Explore accident frequency based on time, location, weather, and road conditions.
+## 🎯 Outcomes
 
-Visualize patterns in accident severity using various plots and graphs.
+* Handle and preprocess real-world accident data.
+* Explore accident frequency by **time, location, weather, and road conditions**.
+* Visualize accident severity patterns using plots and graphs.
+* Derive actionable insights for **safety recommendations**.
+* Document findings with **reports and presentations**.
 
-Derive insights to support road safety awareness and policy recommendations.
+---
 
-Prepare detailed documentation and presentation of findings and results.
+## 📂 Dataset
 
-📂 Dataset
+* **Source:** [US Accidents Dataset (Kaggle)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
+* **Size:** 4M+ accident records
+* **Attributes:** Time, Location, Severity, Weather, Road Conditions, Visibility, etc.
 
-US Accidents Dataset (from Kaggle):
-https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
+---
 
-Includes 4 million+ accident records.
+## 🛠️ Modules
 
-Attributes: time, location, severity, weather, road conditions, visibility, etc.
+1. Dataset Acquisition & Exploration
+2. Data Cleaning & Preprocessing
+3. Univariate Analysis
+4. Bivariate/Multivariate Analysis
+5. Geospatial Analysis
+6. Insight Extraction & Hypothesis Testing
+7. Visualization & Interpretation
+8. Documentation & Presentation
 
-🛠️ Modules to be Implemented
+---
 
-Dataset Acquisition and Exploration
+## 📅 Project Workflow
 
-Data Cleaning and Preprocessing
+**Stepwise Flow:**
 
-Univariate Analysis
+1. Project Initialization
+2. Data Cleaning & Preprocessing
+3. Univariate Analysis
+4. Bivariate/Multivariate Analysis
+5. Geospatial Analysis
+6. Insight Extraction & Hypothesis Testing
+7. Final Visualization & Interpretation
+8. Documentation & Presentation
 
-Bivariate/Multivariate Analysis
+---
 
-Geospatial Analysis
+### 🟢 Milestone 1
 
-Insight Extraction and Hypothesis Testing
+**Week 1 – Project Initialization & Dataset Acquisition**
 
-Visualization and Interpretation
+* Define objectives and expected outcomes.
+* Download dataset.
+* Explore structure, schema, and basic statistics.
+* Check for missing data and data types.
 
-Documentation and Presentation Preparation
+**Week 2 – Data Cleaning & Preprocessing**
 
-📅 Project Workflow
-Project Initialization
+* Handle missing values (drop/impute).
+* Convert datetime columns.
+* Create new features (*Hour, Weekday, Month*).
+* Encode categorical variables.
+* Handle outliers and duplicates.
 
-Data Cleaning & Preprocessing
+---
 
-Univariate Analysis
+### 🟡 Milestone 2
 
-Bivariate/Multivariate Analysis
+**Week 3 – Univariate Analysis**
 
-Geospatial Analysis
+* Distribution of accident severity levels.
+* Frequency by time, weekday, and month.
+* Common weather & road conditions.
+* Visuals: histograms, pie charts, bar graphs.
 
-Insight Extraction & Hypothesis Testing
+**Week 4 – Bivariate/Multivariate Analysis**
 
-Final Visualization & Interpretation
+* Severity correlation with:
 
-Milestone 1
-Week 1: Project Initialization and Dataset Acquisition
+  * Weather
+  * Visibility
+  * Road surface condition
+  * Traffic congestion
+* Visuals: heatmaps, boxplots, pair plots.
 
-Define project objectives and expected outcomes.
+---
 
-Download the US Accidents dataset.
+### 🔵 Milestone 3
 
-Explore the structure, shape, and schema of the dataset.
+**Week 5 – Geospatial & Location-Based Analysis**
 
-Check for missing data, data types, and basic statistics.
+* Visualize accident hotspots (lat/long).
+* Scatter/density maps for states & cities.
+* Identify top 5 accident-prone states/cities.
 
-Week 2: Data Cleaning and Preprocessing
+**Week 6 – Insight Extraction & Hypothesis Testing**
 
-Drop or impute columns with excessive missing values.
+* Key questions:
 
-Convert datetime columns into proper formats.
+  * When do most accidents occur?
+  * Are accidents more severe in rain/fog?
+  * Correlation between visibility & severity?
+* Document assumptions and test hypotheses.
 
-Create new features like Hour, Weekday, or Month from timestamp.
+---
 
-Encode categorical variables if needed.
+### 🔴 Milestone 4
 
-Handle outliers and duplicate entries.
+**Week 7 – Final Visualization & Interpretation**
 
-Milestone 2
-Week 3: Univariate Analysis
+* Combine findings into clear summaries.
+* Storytelling with visuals.
+* Finalize all graphs and interpretations.
 
-Analyze distribution of accident severity levels.
+**Week 8 – Documentation & Presentation**
 
-Plot accident frequency by time of day, day of the week, and month.
+* Compile methodology, insights, conclusions.
+* Prepare final presentation with charts.
+* Practice presenting and Q\&A.
 
-Examine most common weather conditions and road types during accidents.
+---
 
-Use histograms, pie charts, and bar graphs.
+## 📊 Tools & Libraries
 
-Week 4: Bivariate and Multivariate Analysis
-
-Analyze correlation between severity and:
-
-Weather conditions
-
-Visibility
-
-Road surface condition
-
-Traffic congestion
-
-Create heatmaps, boxplots, and pair plots to reveal relationships.
-
-Milestone 3
-Week 5: Geospatial and Location-Based Analysis
-
-Visualize accident hotspots using latitude and longitude.
-
-Create scatter plots or density maps for different states/cities.
-
-Highlight top 5 most accident-prone states or cities.
-
-Week 6: Insight Extraction and Hypothesis Testing
-
-Answer key questions:
-
-What time of day has the most accidents?
-
-Are accidents more severe during rain or fog?
-
-Is there a correlation between visibility and severity?
-
-Document assumptions, test hypotheses, and summarize findings.
-
-Milestone 4
-Week 7: Final Visualization and Interpretation
-
-Combine findings into readable summaries with plots.
-
-Focus on clarity and storytelling using visuals.
-
-Finalize all graphs and interpretations.
-
-Week 8: Documentation and Presentation Preparation
-
-Compile methodology, insights, and conclusions into a document.
-
-Prepare a final presentation with charts and key takeaways.
-
-Practice presenting insights and answering analytical questions.
-
-📊 Tools & Libraries
-
-Python
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Geopandas / Plotly (for geospatial visualization)
+* **Python**
+* **Pandas**
+* **Matplotlib**
+* **Seaborn**
+* **Geopandas / Plotly** (for geospatial analysis)
