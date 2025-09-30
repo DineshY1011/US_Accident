@@ -137,3 +137,9 @@
 * **Matplotlib**
 * **Seaborn**
 * **Geopandas / Plotly** (for geospatial analysis)
+
+---
+
+## Author
+*Dinesh.Y*  
+*RoadSafe Analytics: Road Accidents - Exploratory Data Analysis (EDA) - Infosys Springboard 2025*
